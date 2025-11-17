@@ -62,3 +62,139 @@
         font-size: 14px;
     }
 }
+* ---------- Mobile Layout (width <= 768px) ---------- */
+@media (max-width: 768px) {
+    /* General */
+    body {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Header */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-link {
+        text-align: center;
+        width: 100%;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+    }
+
+    .nav-link.active {
+        background-color: #E8563A;
+        color: #fff;
+    }
+
+    /* Hero */
+    .hero {
+        height: 250px;
+    }
+
+    .hero-image {
+        background-position: center;
+    }
+
+    /* Info Banner */
+    .info-banner {
+        padding: 30px 15px;
+    }
+
+    .info-banner p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    /* Features */
+    .features {
+        padding: 40px 15px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .feature-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .feature-icon i {
+        font-size: 28px;
+    }
+
+    .feature-item h3 {
+        font-size: 16px;
+    }
+
+    .feature-item p {
+        font-size: 14px;
+    }
+
+    /* CTA Section */
+    .cta {
+        padding: 50px 15px;
+    }
+
+    .cta h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .cta-subtitle {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .footer-content {
+        padding: 40px 15px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-column p {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        padding: 20px 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+}
+
